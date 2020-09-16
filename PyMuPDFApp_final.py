@@ -44,4 +44,4 @@ data = final_list #List containing final extracted data
 df = pd.DataFrame(data,columns=['Page Number','Text Line', 'Font', 'Font Size', 'X,Y Coordinates of Text Line'],dtype=float)
 print(df)
 #converting Dataframe to Excel sheet
-df.to_excel("E:/stuff/Barclays/PDF Extraction/output2.xlsx")
+df.to_excel("E:/output_file.xlsx")
