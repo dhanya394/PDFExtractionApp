@@ -5,7 +5,7 @@ from itertools import groupby
 import pandas as pd
 
 #provide full path to PDF file
-doc = fitz.open("E:/stuff/Barclays/PDF Extraction/AC.pdf")
+doc = fitz.open("E:/input_file.pdf")
 pages = doc.pageCount #total page count
 
 final_list = []
