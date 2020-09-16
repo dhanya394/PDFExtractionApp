@@ -1,3 +1,7 @@
+'''
+PDF Data Extraction using PyMuPDF library 
+'''
+
 import fitz
 from statistics import mean
 from collections import Counter
